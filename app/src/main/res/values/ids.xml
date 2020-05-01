@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="actionbarRenta_vehicle" type="id"/>
+    <item name="actionbarBooka_vehicle" type="id"/>
+    <item name="actionbarDisplay_my_rides" type="id"/>
+    <item name="actionbarLoad_credit" type="id"/>
+    <item name="actionbarReport_broken_vehicle" type="id"/>
+    <item name="actionbarDisplay_gift_coupon" type="id"/>
+    <item name="actionbarCreate_child_account" type="id"/>
+    <item name="actionbarTracking_child" type="id"/>
+    <item name="actionbarAdult_activities" type="id"/>
+    <item name="actionbarRegister" type="id" />
+    <item name="actionbarLogin" type="id" />
+</resources>

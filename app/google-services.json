@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "714042518264",
+    "firebase_url": "https://vehicle-fb600.firebaseio.com",
+    "project_id": "vehicle-fb600",
+    "storage_bucket": "vehicle-fb600.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:714042518264:android:70dc1262f6d09c3c8fa90d",
+        "android_client_info": {
+          "package_name": "com.example.vehicle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "714042518264-lnp84c1i8qok77gec32ba27rt17drm3s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd8IoUghRb1OcOL8OixdHSrOXB36d456w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "714042518264-lnp84c1i8qok77gec32ba27rt17drm3s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

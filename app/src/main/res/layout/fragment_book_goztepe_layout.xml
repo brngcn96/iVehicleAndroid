@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityBookGoztepe"
+    android:background="@drawable/button_design">
+
+    <TextView
+        android:id="@+id/txtBook21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="48dp"
+        android:text="i-Vehicle"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtBook22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="89dp"
+        android:text="Book a Vehicle - Göztepe Station"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/txtBook23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="126dp"
+        android:text="Vehicles which are selected as black
+                    are available to rent, red ones are not available."
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/vehicle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="295dp"
+        android:layout_marginRight="295dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Vehicle 1" />
+
+    <Button
+        android:id="@+id/vehicle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="201dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Vehicle 2" />
+
+    <Button
+        android:id="@+id/vehicle3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="251dp"
+        android:layout_marginLeft="251dp"
+        android:layout_marginTop="200dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Vehicle 3" />
+
+    <Button
+        android:id="@+id/vehicle4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="256dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Vehicle 4" />
+
+    <Button
+        android:id="@+id/vehicle5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginLeft="139dp"
+        android:layout_marginTop="259dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Vehicle 5" />
+
+    <Button
+        android:id="@+id/vehicle6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="247dp"
+        android:layout_marginLeft="247dp"
+        android:layout_marginTop="262dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Vehicle 6" />
+
+    <Button
+        android:id="@+id/vehicle7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginBottom="284dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Vehicle 7" />
+
+    <Button
+        android:id="@+id/vehicle8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="141dp"
+        android:layout_marginLeft="141dp"
+        android:layout_marginBottom="283dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Vehicle 8" />
+
+    <Button
+        android:id="@+id/vehicle9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:layout_marginBottom="284dp"
+        android:background="@color/cardview_dark_background"
+        android:text="Vehicle 9" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_design"
+    tools:context=".AgeControlActivity">
+
+
+    <TextView
+        android:id="@+id/txtAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnAdultUser"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/agePolicy"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:fontFamily="sans-serif-light" />
+
+    <Button
+        android:id="@+id/btnAdultUser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="openRegActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="325dp"
+        android:background="@drawable/button_selector"
+        android:text="@string/adult_user" />
+
+    <Button
+        android:id="@+id/btnChildUser"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:onClick="openRegActivity"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/button_selector"
+        android:text="@string/child_user" />
+
+</RelativeLayout>

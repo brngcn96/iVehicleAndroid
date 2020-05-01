@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Adult Activities"
+        android:icon="@drawable/bike">
+        <menu>
+           <item android:id="@+id/nav_createchild"
+               android:title="Create Child Account"
+               android:icon="@drawable/bike"/>
+            <item android:id="@+id/nav_loadcredit"
+                android:title="Load Credit"
+                android:icon="@drawable/bike"/>
+            <item android:id="@+id/nav_bookavehicle"
+                android:title="Book a Vehicle"
+                android:icon="@drawable/bike"/>
+        </menu>
+    </item>
+
+    <item android:title="All Users Activities"
+        android:icon="@drawable/bike">
+        <menu>
+            <item android:id="@+id/nav_rent"
+                android:title="Rent a Vehicle"
+                android:icon="@drawable/bike"/>
+            <item android:id="@+id/nav_rides"
+                android:title="My Rides"
+                android:icon="@drawable/bike"/>
+            <item android:id="@+id/nav_displayride"
+                android:title="Display Ride"
+                android:icon="@drawable/bike"/>
+
+            <item android:id="@+id/nav_gifts"
+                android:title="My Gifts"
+                android:icon="@drawable/bike"/>
+
+        </menu>
+    </item>
+</menu>
